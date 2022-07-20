@@ -5,8 +5,8 @@ module.exports = {
   safelist: ["active"],
   theme: {
     fontFamily: {
-      header: ["Raleway", "sans-serif"],
-      body: ["Open Sans", "sans-serif"],
+      header: ["Catamaran", "sans-serif"],
+      body: ["Montserrat", "sans-serif"],
     },
 
     screens: {
