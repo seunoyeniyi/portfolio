@@ -102,7 +102,7 @@
   ">
   <div class="container flex items-center justify-between">
     <div>
-      <a href="/" class="text-2xl md:text-3xl text-white font-bold md:block md:w-72">
+      <a href="/" class="text-2xl md:text-3xl text-[#CCF381] font-bold md:block md:w-72">
         Seun Oyeniyi
       </a>
     </div>
@@ -113,7 +113,7 @@
           
           <span
             @click="triggerNavItem('#about')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-primary2"
             >About</span
           >
           
@@ -126,7 +126,7 @@
           
           <span
             @click="triggerNavItem('#services')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-primary2"
             >Services</span
           >
           
@@ -139,7 +139,7 @@
           
           <span
             @click="triggerNavItem('#portfolio')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-primary2"
             >Portfolio</span
           >
           
@@ -152,7 +152,7 @@
           
           <span
             @click="triggerNavItem('#clients')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-primary2"
             >Clients</span
           >
           
@@ -165,7 +165,7 @@
           
           <span
             @click="triggerNavItem('#work')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-primary2"
             >Work</span
           >
           
@@ -178,7 +178,7 @@
           
           <span
             @click="triggerNavItem('#statistics')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-primary2"
             >Statistics</span
           >
           
@@ -187,24 +187,24 @@
           ></span>
         </li>
         
-        <li class="group pl-6">
+        <!-- <li class="group pl-6">
           
           <span
             @click="triggerNavItem('#blog')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-primary2"
             >Blog</span
           >
           
           <span
             class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
           ></span>
-        </li>
+        </li> -->
         
         <li class="group pl-6">
           
           <span
             @click="triggerNavItem('#contact')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-primary2"
             >Contact</span
           >
           
@@ -217,7 +217,11 @@
     </div>
     <div class="block lg:hidden">
       <button @click="mobileMenu = true">
-        <i class="bx bx-menu text-4xl text-white"></i>
+        <i class="text-4xl text-primary2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </i>
       </button>
     </div>
   </div>
@@ -243,7 +247,7 @@
         
         <span
           @click="triggerMobileNavItem('#about')"
-          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-primary2"
           >About</span
         >
         
@@ -253,7 +257,7 @@
         
         <span
           @click="triggerMobileNavItem('#services')"
-          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-primary2"
           >Services</span
         >
         
@@ -263,7 +267,7 @@
         
         <span
           @click="triggerMobileNavItem('#portfolio')"
-          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-primary2"
           >Portfolio</span
         >
         
@@ -273,7 +277,7 @@
         
         <span
           @click="triggerMobileNavItem('#clients')"
-          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-primary2"
           >Clients</span
         >
         
@@ -283,7 +287,7 @@
         
         <span
           @click="triggerMobileNavItem('#work')"
-          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-primary2"
           >Work</span
         >
         
@@ -293,27 +297,27 @@
         
         <span
           @click="triggerMobileNavItem('#statistics')"
-          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-primary2"
           >Statistics</span
         >
         
       </li>
       
-      <li class="py-2">
+      <!-- <li class="py-2">
         
         <span
           @click="triggerMobileNavItem('#blog')"
-          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-primary2"
           >Blog</span
         >
         
-      </li>
+      </li> -->
       
       <li class="py-2">
         
         <span
           @click="triggerMobileNavItem('#contact')"
-          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-primary2"
           >Contact</span
         >
         
@@ -324,13 +328,16 @@
 </div>
 
 
-      <div><div
+      <div>
+        <div
   class="relative bg-cover bg-center bg-no-repeat py-8"
-  style="background-image: url(/assets/img/bg-hero.jpg)"
+  style="background-image: url(/assets/img/header-bg.svg)"
 >
   <div
-    class="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat"
-  ></div>
+    class="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat opacity-0"
+  >
+
+</div>
 
   <div
     class="container relative z-30 pt-20 pb-12 sm:pt-40 sm:pb-48 lg:pt-40 lg:pb-48"
@@ -345,7 +352,7 @@
       </div>
       <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
         <h1
-          class="text-center font-header text-4xl text-white lg:text-left sm:text-5xl md:text-6xl"
+          class="text-center font-header font-black text-4xl text-[#CCF381] lg:text-left sm:text-5xl md:text-6xl"
         >
           Web & Mobile App<br> Developer
         </h1>
@@ -365,27 +372,27 @@
           >
             <a href="https://facebook.com/seunoyeniyi123">
               <i
-                class="bx bxl-facebook-square text-2xl text-white hover:text-yellow"
+                class="bx bxl-facebook-square text-2xl text-primary2 hover:text-yellow"
               ></i>
             </a>
             <a href="https://twitter.com/seun_skye" class="pl-4">
               <i
-                class="bx bxl-twitter text-2xl text-white hover:text-yellow"
+                class="bx bxl-twitter text-2xl text-primary2 hover:text-yellow"
               ></i>
             </a>
             <a href="https://dribbble.com/skyecreate" class="pl-4">
               <i
-                class="bx bxl-dribbble text-2xl text-white hover:text-yellow"
+                class="bx bxl-dribbble text-2xl text-primary2 hover:text-yellow"
               ></i>
             </a>
             <a href="https://www.linkedin.com/in/seun-oyeniyi-89a88b15b/" class="pl-4">
               <i
-                class="bx bxl-linkedin text-2xl text-white hover:text-yellow"
+                class="bx bxl-linkedin text-2xl text-primary2 hover:text-yellow"
               ></i>
             </a>
             <a href="https://www.instagram.com/seun_oyeniyi/" class="pl-4">
               <i
-                class="bx bxl-instagram text-2xl text-white hover:text-yellow"
+                class="bx bxl-instagram text-2xl text-primary2 hover:text-yellow"
               ></i>
             </a>
           </div>
@@ -395,11 +402,11 @@
   </div>
 </div>
 
-<div class="bg-grey-50" id="about">
+<div class="bg-grey-50" id="about" style="background-image: url(assets/img/skye-bg1.svg);">
   <div class="container flex flex-col items-center py-16 md:py-20 lg:flex-row">
     <div class="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
       <h2
-        class="font-body text-4xl font-bold uppercase text-primary sm:text-5xl lg:text-6xl"
+        class="font-header text-4xl font-black uppercase text-primary sm:text-5xl lg:text-6xl"
       >
         Who am I?
       </h2>
@@ -518,30 +525,30 @@
   </div>
 </div>
 
-<div class="container py-16 md:py-20" id="services">
+<div class="px-5 sm:px-14 py-16 md:py-20" id="services" style="background-image: url(assets/img/skye-bg5.svg);">
   <h2
-    class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
+    class="text-center font-header text-4xl font-black uppercase text-primary2 sm:text-5xl lg:text-6xl"
   >
     Here's what I'm good at
   </h2>
   <h3
-    class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
+    class="pt-6 text-center font-header text-xl font-medium text-white sm:text-2xl lg:text-3xl"
   >
-    These are the services Ioffer
+    These are the services I offer
   </h3>
 
   <div
     class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3"
   >
-    <div class="group rounded px-8 py-12 shadow hover:bg-primary">
+    <div class="group rounded px-8 py-12 shadow bg-primary hover:bg-white">
       <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-        <div class="hidden group-hover:block">
+        <div class="block group-hover:hidden">
           <img
             src="/assets/img/icon-development-white.svg"
             alt="development icon"
           />
         </div>
-        <div class="block group-hover:hidden">
+        <div class="hidden group-hover:block">
           <img
             src="/assets/img/icon-development-black.svg"
             alt="development icon"
@@ -550,24 +557,24 @@
       </div>
       <div class="text-center">
         <h3
-          class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl"
+          class="pt-8 text-lg font-black uppercase text-yellow group-hover:text-primary lg:text-xl"
         >
           WEB DEVELOPMENT
         </h3>
-        <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+        <p class="text-white pt-4 text-sm group-hover:text-black md:text-base">
           Efficient full stack development, including web design, web content development, client-side/server-side scripting and network security configuration.
         </p>
       </div>
     </div>
-    <div class="group rounded px-8 py-12 shadow hover:bg-primary">
+    <div class="group rounded px-8 py-12 shadow bg-primary hover:bg-white">
       <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-        <div class="hidden group-hover:block">
+        <div class="block group-hover:hidden">
           <img
             src="/assets/img/icon-mobile-white.svg"
             alt="Mobile Application icon"
           />
         </div>
-        <div class="block group-hover:hidden">
+        <div class="hidden group-hover:block">
           <img
             src="/assets/img/icon-mobile-black.svg"
             alt="Mobile Application icon"
@@ -576,24 +583,24 @@
       </div>
       <div class="text-center">
         <h3
-          class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl"
+          class="pt-8 text-lg font-black uppercase text-yellow group-hover:text-primary lg:text-xl"
         >
           Mobile Development
         </h3>
-        <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+        <p class="text-white pt-4 text-sm group-hover:text-black md:text-base">
           Create, test, and develop applications on mobile devices, phones and tablets, and I'm familiar with the newest technologies in the mobile world. 
         </p>
       </div>
     </div>
-    <div class="group rounded px-8 py-12 shadow hover:bg-primary">
+    <div class="group rounded px-8 py-12 shadow bg-primary hover:bg-white">
       <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-        <div class="hidden group-hover:block">
+        <div class="block group-hover:hidden">
           <img
             src="/assets/img/icon-graphics-white.svg"
             alt="Graphic Design icon"
           />
         </div>
-        <div class="block group-hover:hidden">
+        <div class="hidden group-hover:block">
           <img
             src="/assets/img/icon-graphics-black.svg"
             alt="Graphic Design icon"
@@ -602,11 +609,11 @@
       </div>
       <div class="text-center">
         <h3
-          class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl"
+          class="pt-8 text-lg font-black uppercase text-yellow group-hover:text-primary lg:text-xl"
         >
           Web Design
         </h3>
-        <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+        <p class="text-white pt-4 text-sm group-hover:text-black md:text-base">
           I value simple content structure, clean design patterns, and thoughtful interactions.
         </p>
       </div>
@@ -614,9 +621,9 @@
   </div>
 </div>
 
-<div class="container py-16 md:py-20" id="portfolio">
+<div class="px-5 sm:px-14 py-16 md:py-20" id="portfolio" style="background-image: url(assets/img/skye-bg2.svg);">
   <h2
-    class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
+    class="text-center font-header text-4xl font-black uppercase text-primary sm:text-5xl lg:text-6xl"
   >
     Check out my Portfolio
   </h2>
@@ -693,11 +700,11 @@
   </div>
 </div>
 
-<div class="bg-grey-50" id="clients">
+<div class="bg-grey-50 bg-[#4831D4]" id="clients">
   <div class="container py-16 md:py-20">
     <div class="mx-auto w-full sm:w-3/4 lg:w-full">
       <h2
-        class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
+        class="text-center font-header text-4xl font-black uppercase text-primary2 sm:text-5xl lg:text-6xl"
       >
         My latest clients
       </h2>
@@ -707,7 +714,7 @@
             src="/assets/img/logo-whatsdown.png"
             alt="client logo"
             class="mx-auto block h-12 w-auto"
-            style="filter: invert(64%) sepia(0%) saturate(1%) hue-rotate(208deg) brightness(95%) contrast(92%);"
+            style="filter: brightness(0) invert(1);"
           />
         </span>
         <span class="m-8 block">
@@ -715,7 +722,7 @@
             src="/assets/img/logo-areahire.png"
             alt="client logo"
             class="mx-auto block h-12 w-auto"
-            style="filter: invert(64%) sepia(0%) saturate(1%) hue-rotate(208deg) brightness(95%) contrast(92%);"
+            style="filter: brightness(0) invert(1);"
           />
         </span>
 
@@ -724,7 +731,7 @@
             src="/assets/img/logo-greybutterfly.png"
             alt="client logo"
             class="mx-auto block h-12 w-auto"
-            style="filter: invert(64%) sepia(0%) saturate(1%) hue-rotate(208deg) brightness(95%) contrast(92%);"
+            style="filter: brightness(0) invert(1);"
           />
         </span>
 
@@ -733,7 +740,7 @@
             src="/assets/img/logo-priment.png"
             alt="client logo"
             class="mx-auto block h-12 w-auto"
-            style="filter: invert(64%) sepia(0%) saturate(1%) hue-rotate(208deg) brightness(95%) contrast(92%);"
+            style="filter: brightness(0) invert(1);"
           />
         </span>
 
@@ -742,7 +749,7 @@
             src="/assets/img/logo-dlink.png"
             alt="client logo"
             class="mx-auto block h-12 w-auto"
-            style="filter: invert(64%) sepia(0%) saturate(1%) hue-rotate(208deg) brightness(95%) contrast(92%);"
+            style="filter: brightness(0) invert(1);"
           />
         </span>
         <span class="m-8 block">
@@ -750,7 +757,7 @@
             src="/assets/img/logo-savemart.png"
             alt="client logo"
             class="mx-auto block h-12 w-auto"
-            style="filter: invert(64%) sepia(0%) saturate(1%) hue-rotate(208deg) brightness(95%) contrast(92%);"
+            style="filter: brightness(0) invert(1);"
           />
         </span>
         <span class="m-8 block">
@@ -758,7 +765,7 @@
             src="/assets/img/logo-fnv.png"
             alt="client logo"
             class="mx-auto block h-12 w-auto"
-            style="filter: invert(64%) sepia(0%) saturate(1%) hue-rotate(208deg) brightness(95%) contrast(92%);"
+            style="filter: brightness(0) invert(1);"
           />
         </span>
         
@@ -767,7 +774,7 @@
             src="/assets/img/logo-uniosun.png"
             alt="client logo"
             class="mx-auto block h-7 w-auto"
-            style="filter: invert(64%) sepia(0%) saturate(1%) hue-rotate(208deg) brightness(95%) contrast(92%);"
+            style="filter: brightness(0) invert(1);"
           />
         </span>
         <span class="m-8 block">
@@ -775,7 +782,7 @@
             src="/assets/img/logo-wordpress.png"
             alt="client logo"
             class="mx-auto block h-12 w-auto"
-            style="filter: invert(64%) sepia(0%) saturate(1%) hue-rotate(208deg) brightness(95%) contrast(92%);"
+            style="filter: brightness(0) invert(1);"
           />
         </span>
       </div>
@@ -783,9 +790,9 @@
   </div>
 </div>
 
-<div class="container py-16 md:py-20" id="work">
+<div class="container py-16 md:py-20 bg-cover" id="work" style="background-image: url(assets/img/skye-bg4.svg);">
   <h2
-    class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
+    class="text-center font-header text-4xl font-black uppercase text-primary sm:text-5xl lg:text-6xl"
   >
     My work experience
   </h2>
@@ -805,9 +812,10 @@
         <div class="flex justify-center md:justify-start">
           <span class="shrink-0">
             <img
-              src="/assets/img/logo-spotify.svg"
-              class="h-auto w-32"
+              src="/assets/img/logo-areahire.png"
+              class="h-18 w-auto"
               alt="company logo"
+              style="filter: invert(58%) sepia(2%) saturate(12%) hue-rotate(12deg) brightness(104%) contrast(95%);"
             />
           </span>
           <div class="relative ml-3 hidden w-full md:block">
@@ -827,17 +835,15 @@
             <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
             <div class="md:-mt-1 md:pl-8">
               <span class="block font-body font-bold text-grey-40"
-                >Apr 2015 - Mar 2018</span
+                >Apr 2022</span
               >
               <span
                 class="block pt-2 font-header text-xl font-bold uppercase text-primary"
-                >Frontend Developer</span
+                >Mobile App Developer</span
               >
               <div class="pt-2">
                 <span class="block font-body text-black"
-                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
-                  venenatis enim.</span
+                  >Created a Mobile App and it's backend system which allows their buyers to have insurrance over their products(vehicles). Includes: installment payment, monthly reminder, wallet.</span
                 >
               </div>
             </div>
@@ -850,9 +856,10 @@
         <div class="flex justify-center md:justify-start">
           <span class="shrink-0">
             <img
-              src="/assets/img/logo-microsoft.svg"
-              class="h-auto w-32"
+              src="/assets/img/logo-greybutterfly.png"
+              class="h-18 w-auto"
               alt="company logo"
+              style="filter: invert(58%) sepia(2%) saturate(12%) hue-rotate(12deg) brightness(104%) contrast(95%);"
             />
           </span>
           <div class="relative ml-3 hidden w-full md:block">
@@ -872,7 +879,7 @@
             <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
             <div class="md:-mt-1 md:pl-8">
               <span class="block font-body font-bold text-grey-40"
-                >Mar 2018 - September 2019</span
+                >Mar 2020 - September 2022</span
               >
               <span
                 class="block pt-2 font-header text-xl font-bold uppercase text-primary"
@@ -880,9 +887,7 @@
               >
               <div class="pt-2">
                 <span class="block font-body text-black"
-                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
-                  venenatis enim.</span
+                  >Creating Web App that allow customers to select and customize boxes, with payment and customizing editor, based in Lagos Nigeria, one of the best client ever.</span
                 >
               </div>
             </div>
@@ -895,9 +900,10 @@
         <div class="flex justify-center md:justify-start">
           <span class="shrink-0">
             <img
-              src="/assets/img/logo-fedex.svg"
+              src="/assets/img/logo-uniosun.png"
               class="h-auto w-32"
               alt="company logo"
+              style="filter: invert(58%) sepia(2%) saturate(12%) hue-rotate(12deg) brightness(104%) contrast(95%);"
             />
           </span>
           <div class="relative ml-3 hidden w-full md:block">
@@ -917,17 +923,15 @@
             <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
             <div class="md:-mt-1 md:pl-8">
               <span class="block font-body font-bold text-grey-40"
-                >October 2019 - Feb 2021</span
+                >October 2019 - Feb 2020</span
               >
               <span
                 class="block pt-2 font-header text-xl font-bold uppercase text-primary"
-                >DevOps Engineer</span
+                >Software Engineer</span
               >
               <div class="pt-2">
                 <span class="block font-body text-black"
-                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
-                  venenatis enim.</span
+                  >Managing and upgrading of the hospital server and data shipping, with new projects along such as hospital Managment system, Queue system, patient profile.</span
                 >
               </div>
             </div>
@@ -938,14 +942,10 @@
   </div>
 </div>
 
-<div
-  class="bg-cover bg-top bg-no-repeat pb-16 md:py-16 lg:py-24"
-  style="background-image: url(/assets/img/experience-figure.png)"
-  id="statistics"
->
+<div class="bg-cover bg-top bg-no-repeat pb-16 md:py-16 lg:py-24 border-[1px] border-[#5540AE]" style="background-image: url(/assets/img/experience-figure.png)" id="statistics">
   <div class="container">
     <div
-      class="mx-auto w-5/6 bg-white py-16 shadow md:w-11/12 lg:py-20 xl:py-24 2xl:w-full"
+      class="mx-auto w-5/6 bg-white py-16 shadow border-[1px] border-grey-60 md:w-11/12 lg:py-20 xl:py-24 2xl:w-full"
     >
       <div class="grid grid-cols-2 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
         <div
@@ -960,7 +960,7 @@
           </div>
           <div class="pt-5 md:pl-5 md:pt-0">
             <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
-              12
+              22
             </h1>
             <h4
               class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl"
@@ -982,7 +982,7 @@
           </div>
           <div class="pt-5 md:pl-5 md:pt-0">
             <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
-              3
+              1
             </h1>
             <h4
               class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl"
@@ -1040,10 +1040,10 @@
   </div>
 </div>
 
-<div class="bg-grey-50" id="blog">
+<div class="bg-grey-50 hidden" id="blog">
   <div class="container py-16 md:py-20">
     <h2
-      class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
+      class="text-center font-header text-4xl font-black uppercase text-primary sm:text-5xl lg:text-6xl"
     >
       I also like to write
     </h2>
@@ -1128,25 +1128,25 @@
   </div>
 </div>
 
-<div class="container py-16 md:py-20" id="contact">
+<div class="px-5 sm:px-14 py-16 md:py-20 mt-2" id="contact" style="background-image: url(assets/img/skye-bg6.svg);">
   <h2
-    class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
+    class="text-center font-header text-4xl font-black uppercase text-primary2 sm:text-5xl lg:text-6xl"
   >
     GET IN TOUCH
   </h2>
   <div class="mx-auto w-full pt-5 text-center sm:w-2/3 lg:pt-6">
-    <p class="font-body text-grey-10">
+    <p class="font-body text-white">
       I'm seeking out opportunities to collaborate with companies / agencies / individuals, 
       not just work for them. I want to bring my collective design experience to the table 
       where we can work togther to solve real business-problems in a way that optimizes all of 
       our respective experience and knowledge.
     </p>
-    <p class="mt-2 font-body text-grey-10">
+    <p class="mt-2 font-body text-white">
       I want to avoid subjective pissing-matches, and favor open-minded collaborators 
       where egos are out of the equation. If that all sounds about right, then lets for 
       sure chat about how we can work together.
     </p>
-    <p class="mt-4 font-body text-grey-10">
+    <p class="mt-4 font-body text-white">
       Feel free to reach out through any platforms bellow.
     </p>
   </div>
@@ -1157,12 +1157,12 @@
     >
       <div class="flex items-center">
         <i class="bx bx-phone text-2xl text-grey-40"></i>
-        <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
+        <p class="pl-2 font-body font-bold uppercase text-white lg:text-lg">
           Phone/WhatsApp
         </p>
       </div>
-      <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-        <a href="" class="hover:text-black">(+234) 816 7545 487</a>
+      <p class="pt-2 text-left font-body font-bold text-primary2 lg:text-lg">
+        <a href="" class="hover:text-primary2">(+234) 816 7545 487</a>
       </p>
     </div>
     <div
@@ -1170,11 +1170,11 @@
     >
       <div class="flex items-center">
         <i class="bx bx-envelope text-2xl text-grey-40"></i>
-        <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
+        <p class="pl-2 font-body font-bold uppercase text-white lg:text-lg">
           My Email
         </p>
       </div>
-      <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
+      <p class="pt-2 text-left font-body font-bold text-primary2 lg:text-lg">
         <a href="" class="hover:text-black">iamseunoyeniyi@gmail.com</a>
       </p>
     </div>
@@ -1183,11 +1183,11 @@
     >
       <div class="flex items-center">
         <i class="bx bx-map text-2xl text-grey-40"></i>
-        <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
+        <p class="pl-2 font-body font-bold uppercase text-white lg:text-lg">
           My Address
         </p>
       </div>
-      <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
+      <p class="pt-2 text-left font-body font-bold text-primary2 lg:text-lg">
         Opebi Lagos, Nigeria
       </p>
     </div>
