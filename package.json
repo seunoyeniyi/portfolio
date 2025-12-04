@@ -7,7 +7,7 @@
     "css": "npx tailwindcss -i ./assets/styles/main.css -o ./assets/styles/main.min.css --watch",
     "css-build": "npx tailwindcss -i ./assets/styles/main.css -o ./assets/styles/main.min.css --build",
     "server-reload": "browser-sync start --config './browser-sync-config.js'",
-    "develop": "concurrently 'npm:css' 'npm:server-reload'",
+    "dev": "concurrently 'npm:css' 'npm:server-reload'",
     "build": "npm run css-build -- --env 'production'"
   },
   "browserslist": [
